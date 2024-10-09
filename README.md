@@ -1,5 +1,11 @@
 # libiperf-cgo
 
+A minimal example of how to call libiperf using CGO in Go.
+
+> [!TIP]
+> Install `libiperf-dev` and refer to the `man libiperf 3` page for example C code demonstrating how to use the library.
+> See also https://github.com/esnet/iperf/blob/master/examples/mic.c
+
 ```
 $ git submodule update --init --recursive
 $ cd iperf
